@@ -1,0 +1,23 @@
+{
+  "name": "release-note-test1",
+  "version": "0.0.1",
+  "description": "- 릴리즈 테스트 - enhance 커밋 - fix 커밋 - enhance 커밋 - chore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "note": "tui-note"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohee-lee7/release-note-test1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohee-lee7/release-note-test1/issues"
+  },
+  "homepage": "https://github.com/sohee-lee7/release-note-test1#readme",
+  "devDependencies": {
+    "@toast-ui/release-notes": "^2.0.1"
+  }
+}
