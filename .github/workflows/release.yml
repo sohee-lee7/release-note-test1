@@ -1,0 +1,16 @@
+name: release
+
+on:
+  push:
+    tags:
+      - 'release-*'
+
+jobs:
+  deploy-production:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Release notes generator
+        uses: Decathlon/release-notes-generator-action@v2.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
